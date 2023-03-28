@@ -8,13 +8,13 @@ After completing this exercise, you should be able to discuss or answer the foll
 HTML borrows the concept of a form to refer to different elements that allow you to collect information from visitors to your site.
 
 - Give five examples of form control elements.
-Text input, password input, checkboxes, submit buttons, file upload.
+Adding text, making choices, submitting forms, uploading files, and collecting data from the user.
 
 - Give three examples of `type` attribute values for HTML `<input>` elements.
-Type, name, and max length.
+Text input, checkboxes, and file uploads.
 
 - Is an HTML `<input>` element a block element or an inline element?
-Input is an inline element.
+Input is an inline/block element.
 
 ## Notes
 
