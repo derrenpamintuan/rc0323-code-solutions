@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(87 144 209);
+  color: rgb(255 255 255);
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.container {
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column-one-third {
+  flex-basis: calc(100% / 3);
+}
+
+img {
+  width: 50%;
+}
+
+.background {
+  width: 100px;
+  height: 100px;
+  display: inline-flex;
+  background-color: white;
+  border-radius: 50%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+p {
+  padding: 5px 10px;
+}
