@@ -1,0 +1,41 @@
+h2 {
+  color: rgb(250 95 52);
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  padding-left: 120px;
+}
+
+label {
+  padding-left: 10px;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+}
+
+input[type="text"],
+input[type="email"] {
+  border: 1px solid rgb(172 171 171);
+  border-radius: 4px;
+  padding: 7px 200px 7px 5px;
+}
+
+input[type="submit"] {
+  font-size: 11px;
+  border: 1px;
+  border-radius: 15px;
+  padding: 7px 16px;
+  background-color: rgb(250 95 52);
+  color: white;
+  margin-left: 278px;
+}
+
+select {
+  border: 1px solid rgb(172 171 171);
+  border-radius: 4px;
+  padding: 7px 242px 7px 5px;
+  background-color: rgb(240 240 240);
+}
+
+.container {
+  width: 350px;
+  margin: auto;
+}
