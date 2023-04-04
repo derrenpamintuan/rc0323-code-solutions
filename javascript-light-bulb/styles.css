@@ -1,0 +1,29 @@
+.dark {
+  background-color: rgb(16 16 16);
+}
+
+.light {
+  background-color: rgb(255 255 235);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 97vh;
+}
+
+.button {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+}
+
+.off {
+  background-color: rgb(73 73 73);
+}
+
+.on {
+  background-color: rgb(255 251 176);
+  border-color: rgb(214 214 157);
+}
