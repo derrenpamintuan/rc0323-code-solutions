@@ -1,6 +1,6 @@
 let counter = 0;
 
-function incrementCount(number) {
+function incrementCount(event) {
   counter++;
   $clickCount.textContent = 'Clicks: ' + counter;
   if (counter < 4) {

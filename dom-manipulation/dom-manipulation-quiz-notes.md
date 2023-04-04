@@ -17,7 +17,7 @@ Property used to collect or update the text that is in the containing element (a
 Use the textContent property after the element and assign it a new string.
 
 - Is the `event` parameter of an event listener callback always useful?
-Yes, to let you know about the event that happened.
+No it is not always useful, because we don't need the name of the object in the parameter all the time.
 
 - Would this assignment be simpler or more complicated if we didn't use a variable to keep track of the number of clicks?
 More complicated because how will you store the values of a counter.
