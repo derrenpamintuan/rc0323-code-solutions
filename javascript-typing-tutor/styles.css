@@ -1,0 +1,30 @@
+* {
+  font-family: monospace;
+}
+
+.phrase {
+  text-align: center;
+  margin: 25% 0;
+}
+
+h1 {
+  white-space: normal;
+}
+
+span {
+  padding: 0 1px;
+  font-size: larger;
+}
+
+.active {
+  border-bottom: solid 3px black;
+}
+
+.correct {
+  color: rgb(12 175 12);
+}
+
+.wrong {
+  color: red;
+  border-bottom: solid 3px red;
+}
