@@ -1,7 +1,7 @@
 /* exported includes */
-function includes(array, count) {
+function includes(array, value) {
   for (let i = 0; i < array.length; i++) {
-    if (array[i] === count) {
+    if (array[i] === value) {
       return true;
     }
   }
