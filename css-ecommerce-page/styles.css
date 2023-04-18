@@ -1,0 +1,45 @@
+.container {
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: auto;
+}
+
+.head-row {
+  text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.body-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-fifth {
+  flex-basis: 20%;
+  padding: 0 8px;
+}
+
+img {
+  height: 250px;
+  max-width: 170px;
+}
+
+p {
+  font-size: 12px;
+}
+
+.light {
+  color: lightgrey;
+}
+
+.price {
+  color: darkred;
+}
+
+del {
+  padding-left: 5px;
+}
