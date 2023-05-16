@@ -18,6 +18,7 @@ By using the app.use([path,] callback [, callback…]) method.
 
 - Which objects does an Express application pass to your middleware to manage the request/response lifecycle of the server?
 The next middleware function (commonly denoted by a variable named next)
+Request and response objects.
 
 ## Notes
 
