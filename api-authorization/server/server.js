@@ -20,7 +20,7 @@ app.post('/api/auth/sign-up', async (req, res, next) => {
   try {
     const { username, password } = req.body;
     if (!username || !password) {
-      throw new ClientError(400, 'username and password are required fields');
+      throw new ClientError(400, 'username and the password are required fields');
     }
     const hashedPassword = await argon2.hash(password);
     const sql = `
