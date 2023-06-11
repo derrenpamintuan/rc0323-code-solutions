@@ -1,0 +1,21 @@
+button {
+  display: block;
+  background-color: rgb(216 216 216);
+  text-align: left;
+  width: 310px;
+  height: 40px;
+  font-size: larger;
+  margin: auto;
+  cursor: pointer;
+}
+
+p {
+  display: block;
+  text-align: left;
+  width: 300px;
+  height: fit-content;
+  font-size: 12px;
+  margin: auto;
+  padding: 5px 3px;
+  border: solid 2px;
+}
